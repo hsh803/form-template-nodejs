@@ -12,6 +12,7 @@ This application is programmed to send and get valuse from form template by usin
 5. Install body-parser by running `npm install body-parser`. You will see express installed in package.json file.
 
 <Images of the application>
+
 1. Index page
 <img src="/img/index.png" alt="index page">
 
