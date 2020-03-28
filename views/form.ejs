@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Conference application</title>
+    <link rel="stylesheet" href="/form.css">
+</head>
+
+<body>
+
+    <div class="content">
+        <div id="conference-logo">
+            <div class="dot"></div>
+            <div class="half-circle"></div>
+        </div>
+
+        <h1>Conference application</h1>
+        <p>Fill information application format to attend to the conference.</p>
+
+        <form method="post" action="/form">
+            <fieldset>
+                <legend>Contact information (Required)</legend>
+                <div>
+                    <div class="box1">
+                        <label for="firstname">Firstname</label>
+                        <input type="text" id="firstname" name="firstname" tabindex="1">
+                    </div>
+                    <div class="box1">
+                        <label for="lastname">Last name</label>
+                        <input type="text" id="lastname" name="lastname" tabindex="2">
+                    </div>
+                    <div class="box1">
+                        <label for="email">E-mail</label>
+                        <input type="text" id="email" name="email" tabindex="3">
+                    </div>
+                    <div class="box1">
+                        <label for="organization">Organization</label>
+                        <input type="text" id="organization" name="organization"  tabindex="4">
+                    </div>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Presentation type (Required)</legend>
+                <label for="lecture">
+                    <input type="radio" id="lecture" name="type" value="lecture" tabindex="5" checked>Lecture
+                </label>
+                <label for="seminar">
+                    <input type="radio" id="seminar" name="type" value="seminar" tabindex="6">Seminar
+                </label>
+                <label for="discussion">
+                    <input type="radio" id="discussion" name="type" value="discussion" tabindex="7">Discussion
+                </label><br>
+                <label for="title">Title of presentation</label>
+                <input type="text" id="title" name="title" tabindex="8">
+            </fieldset>
+
+            <fieldset>
+                <legend>Message (Optional)</legend>
+                <label for="message">max 200 words</label>
+                <textarea id="message" name="message" cols="50" rows="4"  tabindex="9"></textarea>
+            </fieldset>
+
+            <button type="submit" id="submit" name="submit" tabindex="10">Submit</button>
+        </form>
+    </div>
+
+    <script src="/validate.js"></script>
+</body>
+
+</html>

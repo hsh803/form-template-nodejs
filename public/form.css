@@ -1,0 +1,81 @@
+body {
+	background: #f6f6f6;
+	font-family: sans-serif;
+}
+
+/* Index style */
+
+.link, a:visited {
+	width: 550px;
+	margin: 0 auto;
+	color: tomato;
+	text-align: center;
+	margin-top: 150px;
+}
+
+/* Form style */
+
+h1 {
+	text-align: center;
+}
+
+fieldset {
+	margin-bottom: 20px;
+	padding: 20px;
+}
+
+.box1 {
+	margin: 10px 25px 10px 0;
+	display: inline-block;
+}
+
+label {
+	display: block;
+	margin-bottom: 7px;
+}
+
+#title, #message {
+	width: 80%;
+}
+
+#output {
+	overflow-wrap: break-word;
+}
+/* Logo style */
+
+.content {
+	background: white;
+	max-width: 550px;
+	margin: 0 auto;
+	padding: 3em;
+}
+
+#conference-logo {
+	background: tomato;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	position: relative;
+	margin: 0 auto;
+}
+
+#conference-logo .half-circle {
+	background: white;
+	width: 46px;
+	height: 92px;
+	border-radius: 0 46px 46px 0;
+
+	position: absolute;
+	top: 4px;
+	left: 50%;
+
+	animation: 3s ease-out infinite rotate;
+	position: relative;
+	transform-origin: 0 50%;
+}
+
+@keyframes rotate {
+  0% { transform: rotate(0deg) }
+  50% { transform: rotate(22.5deg) }
+  100% { transform: rotate(0deg) }
+}
