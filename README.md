@@ -11,3 +11,12 @@ This application is programmed to send and get valuse from form template by usin
 4. Install ejs by running `npm install ejs`. You will see express installed in package.json file.
 5. Install body-parser by running `npm install body-parser`. You will see express installed in package.json file.
 
+<Images of the application>
+1. Index page
+<img src="/img/index.png" alt="index page">
+
+2. Form template page
+<img src="/img/form.png" alt="form page">
+
+3. Submission page
+<img src="/img/submit.png" alt="submit page">
