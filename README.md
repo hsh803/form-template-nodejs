@@ -1,6 +1,9 @@
 # Form application
 
-This application is programmed to send and get valuse from form template by using Node.js and Express.
+1. Programming languages: HTML, CSS, Javascript, Node.js, Express
+2. Tools: Visual Design Code
+3. Description: This application is programmed to send and get valuse from the form template by using Node.js and Express.
+
 
 ### Conditions to run the application
 
