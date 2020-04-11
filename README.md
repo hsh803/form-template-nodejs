@@ -8,11 +8,13 @@
 ### Conditions to run the application
 
 1. Your machine is connected to server.
-2. Download the files attached in this repository.
 2. Create `package.json` by running `npm init` via terminal in the category where you have the files.
 3. Install express by running `npm install express`. You will see express installed in package.json file.
 4. Install ejs by running `npm install ejs`. You will see express installed in package.json file.
 5. Install body-parser by running `npm install body-parser`. You will see express installed in package.json file.
+6. Download the files attached in this repository.
+7. Run commando line, `node index.js` via terminal in the category where the files are stored in order to connect to web server.
+8. Open localhost server with the port number, `localhost:1337` in your browser.
 
 ### Images of the application
 
