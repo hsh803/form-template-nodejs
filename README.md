@@ -1,12 +1,10 @@
 # Form template (Node.js)
 
-<a href="https://form-template-app.herokuapp.com/" >Open</a> app in browser
-
 1. Languages: HTML, CSS, Javascript
 2. Techniques: Node.js, Express
 3. Tools: Visual Design Code
 4. Description: This application is programmed to send and get valuse from the form template by using Node.js and Express.
-
+5. <a href="https://form-template-app.herokuapp.com/" >Open</a> app in browser.
 
 ### Conditions to run the application
 
